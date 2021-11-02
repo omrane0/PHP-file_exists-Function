@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+echo fileatime("webdictionary.txt");
+echo "<br>";
+echo "Last access: ".date("F d Y H:i:s.", fileatime("webdictionary.txt"));
+?>
+
+</body>
+</html>
+
+
+
+1635399103
+Last access: October 28 2021 05:31:43.

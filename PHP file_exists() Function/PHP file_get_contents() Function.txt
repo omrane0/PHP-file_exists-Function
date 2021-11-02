@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+echo file_get_contents("test.txt");
+?>
+
+</body>
+</html>
+
+
+Hello, this is a test file. There are three lines here. This is the last line.
